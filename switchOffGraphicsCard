@@ -1,0 +1,23 @@
+#! /bin/sh
+### BEGIN INIT INFO
+# Provides:          switchOffGraphicsCard
+# Required-Start:    
+# Required-Stop:     
+# Default-Start:     3 5
+# Default-Stop:      
+# Short-Description: Switches off dedicaded graphics card
+# Description:       Switches off dedicaded graphics card with the vgaswitcheroo switch
+### END INIT INFO
+# Author: RoboMod <mod.andy@gmx.de>
+
+# Aktionen
+case "$1" in
+    start)
+    	echo OFF > /sys/kernel/debug/vgaswitcheroo/switch
+        ;;
+    restart)
+	echo OFF > /sys/kernel/debug/vgaswitcheroo/switch 
+	;;
+esac
+                                                            
+exit 0 
