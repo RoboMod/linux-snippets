@@ -3,7 +3,10 @@ linux-snippets
 
 collection of small linux scripts
 
-switchOffGraphicsCard
+[GitHub Webpage](http://robomod.github.io/linux-snippets/)<br/>
+[GitHub Wiki](https://github.com/RoboMod/linux-snippets/wiki)
+
+[switchOffGraphicsCard](https://github.com/RoboMod/linux-snippets/wiki/switchOffGraphicsCard)
 ---------------------
 
 This small scripts switchs off your dedicated graphics card on boot-up. It's usefull to calm down noisy and heating notebooks.
